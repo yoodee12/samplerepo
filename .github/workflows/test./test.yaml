@@ -11,7 +11,8 @@ jobs:
     steps:
       - name: Greet user
         run: |
-        echo "Welcome to the workflow"
-        echo "--------------------"
-        echo "FIRST Workflow in Class"      
-        echo "-----------------------"
+          echo "Welcome to the workflow"
+          echo "--------------------"
+          echo "FIRST Workflow in Class"      
+          echo "-----------------------"
+
