@@ -1,0 +1,17 @@
+name: Test Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  greetings:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greet user
+        run: |
+        echo "Welcome to the workflow"
+        echo "--------------------"
+        echo "FIRST Workflow in Class"      
+        echo "-----------------------"
